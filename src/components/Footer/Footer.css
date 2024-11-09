@@ -1,0 +1,47 @@
+#fmain{
+    z-index: 10;
+    bottom: 0;
+    position: relative;
+}
+#proxyID{
+    height: 90vh;
+    width: 100%;
+    /* background-color: bisque; */
+}
+footer{
+    position: fixed;
+    z-index: -9;
+    height: 90vh;
+    width: 100%;
+    bottom: 0;
+    background-color: #242424;
+}
+
+#last{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoreact{
+    margin-top: 82%;
+    height: 30vh;
+    animation: logo-spin infinite 20s linear;
+}
+
+@keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+center{
+    padding-top: 5%;
+}
+
+center h1,h2{
+    color: aliceblue;
+}

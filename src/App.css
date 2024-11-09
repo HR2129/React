@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  
+}
+#container{
+  max-width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(rgb(33, 56, 59) ,rgba(0, 0, 0, 0.788) );
+  /* background: linear-gradient(rgb(13, 182, 212) ,rgba(0, 0, 0, 0.788) ); */
+  z-index: 10;
+}
+
+
+
+
+
+
